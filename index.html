@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DC bot 網頁</title>
+        <meta name="description" content="DC bot 網頁">
+        <meta property="og:title" content="DC bot 網頁" />
+        <meta property="og:image" content="./assets/thumbnail.jpg" />
+        <meta property="og:description" content="DC bot 網頁" />
+        <link rel="icon" href="./assets/icon.ico">
+    </head>
+
+    <body>
+        <form id="tmp" action="./DB/token_verification_redirect.php" method="post" style="display: none;">
+        </form>
+        <script type="text/javascript">
+            var language = navigator.language;
+            var token;
+
+            if (language.startsWith("zh")){
+                token = window.prompt("請輸入存取網頁之token\n可於Discord伺服器/群組內任一頻道內輸入「!!getwebtoken」來向機器人索取token" , "token")
+            }
+            else{
+                token = window.prompt("Please enter the token which can let you access this website.\nYou could type \"!!getwebtoken\" in any channel of Discord servers/guilds to get that token." , "token")
+            }
+
+            //用來傳值的隱藏表單
+            var tmp = document.getElementById("tmp");
+            var txt = document.createElement("textarea");
+            txt.name = "token";
+            txt.value = token;
+            tmp.appendChild(txt);
+            tmp.submit();
+        </script>
+    </body>
+</html>

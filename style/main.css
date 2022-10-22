@@ -1,0 +1,355 @@
+@import "normalize.css";
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #202125;}
+
+td{
+    word-break: break-all;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+div.header{
+    margin: 0 auto;
+}
+
+div.header div.homebutton{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+div.header div.homebutton img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+div.header div.banner{
+    margin: 0 auto;
+    width: 1300px;
+    float: right;
+}
+
+div.header div.banner img{
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 按鈕列 */
+
+div.nav{
+    margin: 0px 0px;
+    height: 44px;
+    background-color: #808080;
+}
+
+div.nav ul {
+    text-align: center;
+    padding: 0px 0px;
+}
+
+div.nav ul li {
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+div.nav ul li div.msglog {
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 18px;
+    background-color: #29ABE2;
+    border: 2px #29ABE2 solid;
+    float: left;
+}
+
+div.nav ul li div.msglog:hover {
+    width: 100px;
+    height: 20px;
+    padding: 10px 18px;
+    color: #29ABE2;
+    background-color: #fff;
+    border: 2px #29ABE2 solid;
+}
+
+div.nav ul li div.msglog div{
+    display: none;
+}
+
+div.nav ul li div.msglog:hover div{
+    display: block;
+}
+
+div.nav ul li div.msglog div a{
+    position: relative;
+    left: -20px;
+    top: 14px;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 18px;
+    background-color: #29ABE2;
+    border: 2px #29ABE2 solid;
+    float: left;
+}
+
+div.nav ul li div.msglog div a:hover{
+    width: 100px;
+    height: 20px;
+    padding: 10px 18px;
+    color: #29ABE2;
+    background-color: #fff;
+    border: 2px #29ABE2 solid;
+}
+
+div.nav ul li a.music {
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 18px;
+    background-color: #ED1E79;
+    border: 2px #ED1E79 solid;
+    float: left;
+}
+
+div.nav ul li a.music:hover {
+    width: 100px;
+    height: 20px;
+    padding: 10px 18px;
+    color: #ED1E79;
+    background-color: #fff;
+    border: 2px #ED1E79 solid;
+}
+
+div.nav ul li a.instructions {
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 18px;
+    background-color: #39B54A;
+    border: 2px #39B54A solid;
+    float: left;
+}
+
+div.nav ul li a.instructions:hover {
+    width: 100px;
+    height: 20px;
+    padding: 10px 18px;
+    color: #39B54A;
+    background-color: #fff;
+    border: 2px #39B54A solid;
+}
+
+div.GuildName{
+    margin: 15px 0 10px 5px;
+    width: 100%;
+    font-size: 36px;
+    color: #FFF;
+    word-break: break-all;
+}
+
+div.content{
+    margin: 0 auto;
+}
+
+/* 訊息歷史紀錄 */
+
+div.content div.channels{
+    min-width: 190px;
+    max-width: 190px;
+    height: 100%;
+    border: 2px #fff solid;
+    background-color: #4D4D4D;
+    text-align: center;
+    float: left;
+}
+
+div.content div.channels ul li{
+    list-style-type: none;
+    display: block;
+    margin: 8px 8px 8px -34px;
+}
+
+div.content div.channels ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+div.content div.msglog{
+    min-width: 1400px;
+    max-width: 1400px;
+    float: right;
+}
+
+div.content div.msglog table{
+    border: 2px #fff solid;
+    color: #fff;
+    font-size: 16px;
+    word-break: break-all;
+}
+
+div.content div.msglog table tbody tr:nth-child(odd){
+    background: #808080;
+}
+
+div.content div.msglog table tbody tr:nth-child(even){
+    background: #666666;
+}
+
+div.content div.msglog table tbody tr td.author{
+    min-width: 100px;
+    max-width: 100px;
+}
+
+div.content div.msglog table tbody tr td.content{
+    min-width: 508px;
+    max-width: 508px;
+}
+
+div.content div.msglog table tbody tr td.editted_content{
+    min-width: 508px;
+    max-width: 508px;
+}
+
+div.content div.msglog table tbody tr td.attachment{
+    min-width: 40px;
+    max-width: 40px;
+    text-align: center;
+}
+
+div.content div.msglog table tbody tr td.attachment a{
+    color: #fff;
+    text-decoration: none;
+}
+
+div.content div.msglog table tbody tr td.sent_at{
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+div.content div.msglog table tbody tr td.editted_at{
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+div.content div.msglog table tbody tr td.type{
+    min-width: 50px;
+    max-width: 50px;
+    text-align: center;
+}
+
+/* 音樂隊列 */
+
+div.content div.MusicQueue{
+    min-width: 1600px;
+    max-width: 1600px;
+}
+
+div.content div.MusicQueue table{
+    min-width: 1592px;
+    max-width: 1592px;
+    border: 2px #fff solid;
+    color: #fff;
+    font-size: 16px;
+    word-break: break-all;
+}
+
+div.content div.MusicQueue table tbody tr:nth-child(odd){
+    background: #808080;
+}
+
+div.content div.MusicQueue table tbody tr:nth-child(even){
+    background: #666666;
+}
+
+div.content div.MusicQueue table tbody tr td.video{
+    width: 322px;
+    height: 182px;
+}    
+
+/* from https://pjchender.dev/css/css-center-center/ */
+
+div.content div.MusicQueue table tbody tr td.video div.videobox{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.content div.MusicQueue table tbody tr td.video div.text{
+    position: relative;
+    left: 3px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    word-break: break-all;
+    text-align: center;
+}
+
+div.content div.MusicQueue table tbody tr td.video div.videobox iframe{
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+}    
+
+div.content div.MusicQueue table tbody tr td.title{
+    max-width: 720px;
+    min-width: 720px;
+}
+
+div.content div.MusicQueue table tbody tr td.title a{
+    position: relative;
+    left: 3px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+div.content div.MusicQueue table tbody tr td.duration{
+    max-width: 68px;
+    min-width: 68px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.content div.MusicQueue table tbody tr td.controller{
+    max-width: 460px;
+    min-width: 460px;
+}
+
+div.content div.MusicQueue table tbody tr td.controller audio{
+    width: 400px;
+    margin: 0 auto;
+    display: table;
+}
+
+/* 操作說明 */
+
+div.instructions{
+    text-align: center;
+    color: #fff;
+}
