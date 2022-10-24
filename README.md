@@ -16,4 +16,4 @@ https://github.com/DeePingXian/DPX_Discord_Bot<br>
 - thumbnail.jpg：網站縮圖
 
 音樂隊列頁面範例：<br>
-![音樂隊列頁面範例](https://i.imgur.com/G8Kr1RY.jpg)
+![音樂隊列頁面範例](https://i.imgur.com/NHdXiRM.jpg)
